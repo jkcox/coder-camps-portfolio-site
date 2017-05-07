@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>John Cox - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a> - 
+        <a href="portfolio.html">Portfolio</a> -
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <div>
+      <h1>List of Projects</h1>
+      <ul>
+          <li>Portfolio site</li>
+            <ul>
+                <li>This is the first project of Coder Camps to teach basic web dev concepts.</li>
+            </ul>
+            <li>Javascript Project</li>
+                <ul>
+                    <li>This project enables the user to see how many words, sentences, spaces and average words per sentence are contained within a passage of text.</li>
+                </ul>
+      </ul>
+    </div>
+    <div>
+        <h1>Javascript Project</h1>
+        <textarea id="userInput" rows="10" cols="50"></textarea>
+        <input type="button" value="Get Report!" id="runReport" />
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <td>Total number of words</td>
+                    <td>Total number of sentences</td>
+                    <td>Average words per sentence</td>
+                    <td>Total number of spaces</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="wordTotal"> </td>
+                    <td id="sentenceTotal"> </td>
+                    <td id="avgTotal"> </td>
+                    <td id="spaceTotal"> </td>                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <nav>
+            <a href="https://github.com/jkcox">Github</a> - 
+            <a href="https://www.linkedin.com/in/john-cox-6938b9a8/">LinkedIn</a>
+        </nav>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
